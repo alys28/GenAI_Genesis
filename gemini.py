@@ -1,6 +1,7 @@
-# TODO(developer): Vertex AI SDK - uncomment below & run
 # pip3 install --upgrade --user google-cloud-aiplatform
 # gcloud auth application-default login
+# gcloud init
+# gcloud auth login
 
 import vertexai
 from vertexai.generative_models import GenerativeModel, Part
@@ -31,4 +32,4 @@ Reply ONLY with the answer that goes into <YOUR_ANSWER> below. ONLY with the ans
     response = model.generate_content(prompt)
     print(response.text) #  The opposite of hot is cold.
 
-eng_to_ASL('I love your wife')
+# eng_to_ASL('I love your wife')
