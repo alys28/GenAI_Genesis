@@ -1,7 +1,6 @@
 # pip3 install --upgrade --user google-cloud-aiplatform
 # gcloud auth application-default login
 # gcloud init
-# gcloud auth login
 
 import vertexai
 from vertexai.generative_models import GenerativeModel, Part
